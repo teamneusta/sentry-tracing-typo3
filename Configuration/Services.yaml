@@ -1,0 +1,11 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Neusta\SentryTracing\:
+    resource: '../Classes/*'
+
+  Neusta\SentryTracing\TimeTracker\TimeTrackerDecorator:
+    decorates: TYPO3\CMS\Core\TimeTracker\TimeTracker

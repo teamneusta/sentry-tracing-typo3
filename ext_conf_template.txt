@@ -1,0 +1,4 @@
+# cat=Sentry/; type=boolean; label=Enable Tracing: Enables tracing for this project.
+enableTracing = 1
+# cat=Sentry/; type=string; label=Sample Rate: The rate at which to sample transactions. 0.0 - 1.0 (default 0.2 = 20%)
+tracesSampleRate = 0.2
