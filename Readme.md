@@ -44,7 +44,11 @@ For example:
 page.10.dataProcessing.100 = Neusta\SentryTracing\DataProcessing\SentryTraceProcessor
 ```
 
-You can then access the tracing information in Fluid. If you have a meta tag viewhelper
+You can then access the tracing information in Fluid. 
+
+Be aware that the tracing information may be cached, depending on how and where you include the meta tags.
+
+If you have a meta tag viewhelper
 in your project, you can add the tracing information to the corresponding meta tags:
 
 ```html
